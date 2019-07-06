@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Hack The Valley 4`,
     description: `36 hour Hackathon at The University of Toronto Scarborough. Get your hands on some of the top hardware and API's out there and put your creativity to the test!`,
-    author: `fpunny`,
+    author: `hackthevalley`,
   },
   plugins: [
     // `gatsby-plugin-offline`,
