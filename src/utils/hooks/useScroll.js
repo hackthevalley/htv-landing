@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
  * @param {number} offset - The offset of the how much more the item is scrolled into view
  */
 export const useScroll = ({ current }, handler, offset = 60) => {
-    const [scroll, setScroll] = useState(window.scrollY);
+    const [scroll, setScroll] = useState(0);
     useEffect(() => {
 
         if (!current) {

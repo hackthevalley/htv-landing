@@ -14,10 +14,11 @@ import Providers from './Providers';
 export const Landing = ({
     children,
     items = [],
+    location,
     ...props
 }) => {
     return (
-        <Providers>
+        <Providers location={location}>
             <Seo />
             <Navigation items={items}/>
             <main {...props}>{children}</main>

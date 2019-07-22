@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { Mixins } from '@cheapreats/react-ui';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 import { Container as C, Image } from '@components';
+import { locationContext } from '../utils/context';
 
 const query = graphql`
     {
@@ -22,7 +23,7 @@ export const Navigation = ({
     items
 }) => {
     const data = useStaticQuery(query);
-    const { pathname, hash } = window.location;
+    const { pathname, hash } = useContext(locationContext);
 
     return (
         <Container tag='nav' contentTag={NavItems}>
