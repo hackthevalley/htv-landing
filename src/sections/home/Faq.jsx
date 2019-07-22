@@ -5,7 +5,7 @@ import { Container as C } from '@components';
 export const Faq = () => <Container tag="section">Faq</Container>;
 
 Faq.nav = {
-    path: '/#faq',
+    to: '/#faq',
     name: 'FAQ',
 };
 

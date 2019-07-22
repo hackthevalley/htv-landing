@@ -5,7 +5,7 @@ import { Container as C } from '@components';
 export const About = () => <Container tag="section">About</Container>;
 
 About.nav = {
-    path: '/#about',
+    to: '/#about',
     name: 'About',
 };
 

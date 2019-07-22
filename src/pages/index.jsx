@@ -2,11 +2,13 @@ import React from 'react';
 import * as sections from '@sections/home';
 import { Landing } from '@layouts';
 
+const items = Object.values(sections);
 const IndexPage = () => (
-    <Landing>
-        {Object.values(sections).map(Section => {
+    <Landing items={items}>
+        <sections.Home/>
+        {/*items.map(Section => {
             return <Section key={Section.name} />;
-        })}
+        })*/}
     </Landing>
 );
 

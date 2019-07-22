@@ -19,7 +19,10 @@ query {
  */
 
 export const Image = ({ data, ...props }) => (
-    <Img {...props} fluid={data.placeholderImage.childImageSharp.fluid} />
+    <Img
+        {...props}
+        fluid={data.placeholderImage.childImageSharp.fluid}
+    />
 );
 
 Image.propTypes = {

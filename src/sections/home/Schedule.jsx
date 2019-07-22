@@ -5,7 +5,7 @@ import { Container as C } from '@components';
 export const Schedule = () => <Container tag="section">Schedule</Container>;
 
 Schedule.nav = {
-    path: '/#schedule',
+    to: '/#schedule',
     name: 'Schedule',
 };
 
