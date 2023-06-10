@@ -6,7 +6,7 @@
   "author": "Frederic Pun <frederic.pun@gmail.com> (https://fpunny.xyz)",
   "dependencies": {
     "@cheapreats/react-ui": "^2.0.7",
-    "gatsby": "^2.13.32",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
